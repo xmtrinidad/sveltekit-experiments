@@ -1,7 +1,5 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-
-	$: console.log($page.params.item);
 </script>
 
 <h1>This is the individual item slug</h1>
